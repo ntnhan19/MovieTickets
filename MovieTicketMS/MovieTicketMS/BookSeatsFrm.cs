@@ -47,5 +47,10 @@ namespace MovieTicketMS
                 btnSeats.BackColor = Color.Yellow;
             }
         }
+
+        private void btnXacNhan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

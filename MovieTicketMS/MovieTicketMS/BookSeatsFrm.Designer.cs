@@ -134,6 +134,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnTroVe = new System.Windows.Forms.Button();
             this.lbl_X = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -143,7 +144,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblScreen = new System.Windows.Forms.Label();
-            this.btnTroVe = new System.Windows.Forms.Button();
             this.grbSeats.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -1528,6 +1528,19 @@
             this.panel1.Size = new System.Drawing.Size(362, 720);
             this.panel1.TabIndex = 1;
             // 
+            // btnTroVe
+            // 
+            this.btnTroVe.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnTroVe.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTroVe.ForeColor = System.Drawing.Color.White;
+            this.btnTroVe.Location = new System.Drawing.Point(12, 663);
+            this.btnTroVe.Name = "btnTroVe";
+            this.btnTroVe.Size = new System.Drawing.Size(168, 45);
+            this.btnTroVe.TabIndex = 22;
+            this.btnTroVe.Text = "TRỞ VỀ";
+            this.btnTroVe.UseVisualStyleBackColor = false;
+            this.btnTroVe.Click += new System.EventHandler(this.btnTroVe_Click);
+            // 
             // lbl_X
             // 
             this.lbl_X.AutoSize = true;
@@ -1588,6 +1601,7 @@
             this.btnXacNhan.TabIndex = 1;
             this.btnXacNhan.Text = "XÁC NHẬN";
             this.btnXacNhan.UseVisualStyleBackColor = false;
+            this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
             // 
             // pictureBox1
             // 
@@ -1619,20 +1633,7 @@
             this.lblScreen.TabIndex = 3;
             this.lblScreen.Text = "SCREEN";
             // 
-            // btnTroVe
-            // 
-            this.btnTroVe.BackColor = System.Drawing.Color.MidnightBlue;
-            this.btnTroVe.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTroVe.ForeColor = System.Drawing.Color.White;
-            this.btnTroVe.Location = new System.Drawing.Point(12, 663);
-            this.btnTroVe.Name = "btnTroVe";
-            this.btnTroVe.Size = new System.Drawing.Size(168, 45);
-            this.btnTroVe.TabIndex = 22;
-            this.btnTroVe.Text = "TRỞ VỀ";
-            this.btnTroVe.UseVisualStyleBackColor = false;
-            this.btnTroVe.Click += new System.EventHandler(this.btnTroVe_Click);
-            // 
-            // DatGheFrm
+            // BookSeatsFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1640,7 +1641,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "DatGheFrm";
+            this.Name = "BookSeatsFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GheFrm";
             this.grbSeats.ResumeLayout(false);

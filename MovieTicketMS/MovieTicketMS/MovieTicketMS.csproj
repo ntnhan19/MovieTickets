@@ -102,6 +102,9 @@
     <Compile Include="ShowingMoviesFrm.Designer.cs">
       <DependentUpon>ShowingMoviesFrm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BookSeatsFrm.resx">
+      <DependentUpon>BookSeatsFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BookTheatersFrm.resx">
       <DependentUpon>BookTheatersFrm.cs</DependentUpon>
     </EmbeddedResource>
