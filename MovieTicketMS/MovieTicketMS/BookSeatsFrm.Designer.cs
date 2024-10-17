@@ -1601,7 +1601,6 @@
             this.btnXacNhan.TabIndex = 1;
             this.btnXacNhan.Text = "XÁC NHẬN";
             this.btnXacNhan.UseVisualStyleBackColor = false;
-            this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
             // 
             // pictureBox1
             // 
