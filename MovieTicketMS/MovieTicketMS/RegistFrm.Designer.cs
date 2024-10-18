@@ -40,11 +40,11 @@
             this.Regis_txtCfirPass = new System.Windows.Forms.TextBox();
             this.Regis_lblCfirPass = new System.Windows.Forms.Label();
             this.lblCreateAcc = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lbl_X = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Regis_panel = new System.Windows.Forms.Panel();
+            this.Regis_lblX = new System.Windows.Forms.Label();
+            this.Regis_picbox = new System.Windows.Forms.PictureBox();
+            this.Regis_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Regis_picbox)).BeginInit();
             this.SuspendLayout();
             // 
             // Regis_btnRegister
@@ -179,66 +179,65 @@
             this.lblCreateAcc.TabIndex = 16;
             this.lblCreateAcc.Text = "Create an account?";
             // 
-            // panel1
+            // Regis_panel
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(83)))), ((int)(((byte)(106)))));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.Controls.Add(this.lbl_X);
-            this.panel1.Controls.Add(this.Regis_lblSignUp);
-            this.panel1.Controls.Add(this.Regis_txtCfirPass);
-            this.panel1.Controls.Add(this.Regis_lblUserName);
-            this.panel1.Controls.Add(this.Regis_lblCfirPass);
-            this.panel1.Controls.Add(this.Regis_txtUserName);
-            this.panel1.Controls.Add(this.Regis_btnSignin);
-            this.panel1.Controls.Add(this.Regis_lblPass);
-            this.panel1.Controls.Add(this.lblCreateAcc);
-            this.panel1.Controls.Add(this.Regis_txtPass);
-            this.panel1.Controls.Add(this.Regis_chkShowPass);
-            this.panel1.Controls.Add(this.Regis_btnRegister);
-            this.panel1.ForeColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(919, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(399, 675);
-            this.panel1.TabIndex = 19;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.Regis_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(83)))), ((int)(((byte)(106)))));
+            this.Regis_panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Regis_panel.Controls.Add(this.Regis_lblX);
+            this.Regis_panel.Controls.Add(this.Regis_lblSignUp);
+            this.Regis_panel.Controls.Add(this.Regis_txtCfirPass);
+            this.Regis_panel.Controls.Add(this.Regis_lblUserName);
+            this.Regis_panel.Controls.Add(this.Regis_lblCfirPass);
+            this.Regis_panel.Controls.Add(this.Regis_txtUserName);
+            this.Regis_panel.Controls.Add(this.Regis_btnSignin);
+            this.Regis_panel.Controls.Add(this.Regis_lblPass);
+            this.Regis_panel.Controls.Add(this.lblCreateAcc);
+            this.Regis_panel.Controls.Add(this.Regis_txtPass);
+            this.Regis_panel.Controls.Add(this.Regis_chkShowPass);
+            this.Regis_panel.Controls.Add(this.Regis_btnRegister);
+            this.Regis_panel.ForeColor = System.Drawing.Color.Black;
+            this.Regis_panel.Location = new System.Drawing.Point(919, 12);
+            this.Regis_panel.Name = "Regis_panel";
+            this.Regis_panel.Size = new System.Drawing.Size(399, 675);
+            this.Regis_panel.TabIndex = 19;
             // 
-            // lbl_X
+            // Regis_lblX
             // 
-            this.lbl_X.AutoSize = true;
-            this.lbl_X.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_X.Location = new System.Drawing.Point(367, 11);
-            this.lbl_X.Name = "lbl_X";
-            this.lbl_X.Size = new System.Drawing.Size(19, 20);
-            this.lbl_X.TabIndex = 20;
-            this.lbl_X.Text = "X";
-            this.lbl_X.Click += new System.EventHandler(this.lbl_X_Click);
+            this.Regis_lblX.AutoSize = true;
+            this.Regis_lblX.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Regis_lblX.Location = new System.Drawing.Point(367, 11);
+            this.Regis_lblX.Name = "Regis_lblX";
+            this.Regis_lblX.Size = new System.Drawing.Size(19, 20);
+            this.Regis_lblX.TabIndex = 20;
+            this.Regis_lblX.Text = "X";
+            this.Regis_lblX.Click += new System.EventHandler(this.lbl_X_Click);
             // 
-            // pictureBox1
+            // Regis_picbox
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(888, 675);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
+            this.Regis_picbox.Image = ((System.Drawing.Image)(resources.GetObject("Regis_picbox.Image")));
+            this.Regis_picbox.Location = new System.Drawing.Point(12, 12);
+            this.Regis_picbox.Name = "Regis_picbox";
+            this.Regis_picbox.Size = new System.Drawing.Size(888, 675);
+            this.Regis_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Regis_picbox.TabIndex = 20;
+            this.Regis_picbox.TabStop = false;
             // 
-            // RegisterFr
+            // RegistFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1330, 698);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Regis_picbox);
+            this.Controls.Add(this.Regis_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "RegisterFr";
+            this.Name = "RegistFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegisterFr";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Regis_panel.ResumeLayout(false);
+            this.Regis_panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Regis_picbox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -256,9 +255,9 @@
         private System.Windows.Forms.TextBox Regis_txtCfirPass;
         private System.Windows.Forms.Label Regis_lblCfirPass;
         private System.Windows.Forms.Label lblCreateAcc;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lbl_X;
+        private System.Windows.Forms.Panel Regis_panel;
+        private System.Windows.Forms.PictureBox Regis_picbox;
+        private System.Windows.Forms.Label Regis_lblX;
     }
 }
 

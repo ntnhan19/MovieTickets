@@ -14,18 +14,10 @@ namespace MovieTicketMS
     public partial class BookTheatersFrm : Form
     {
         DBMovieTicket movieTicketDB = new DBMovieTicket();
-        public BookTheatersFrm(int movieID)
+        public BookTheatersFrm()
         {
             InitializeComponent();
-            LoadMovieDetails(movieID);
             LoadCinemaData();
-            LoadShowTimes(movieID); 
-        }
-
-        private void LoadShowTimes(int movieID)
-        {
-            
-
         }
 
         private void LoadCinemaData()
@@ -34,11 +26,6 @@ namespace MovieTicketMS
             cmbRapChieu.DataSource = cinemas;
             cmbRapChieu.DisplayMember = "CinemaName";
             cmbRapChieu.ValueMember = "CinemaID";
-        }
-
-        private void LoadMovieDetails(int movieID)
-        {
-            
         }
 
         private void lbl_X_Click(object sender, EventArgs e)
@@ -60,6 +47,11 @@ namespace MovieTicketMS
             phimDangChieuFrm.Show();
 
             this.Hide();
+        }
+
+        private void lblX_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -36,10 +36,23 @@
             this.tstrDangNhap = new System.Windows.Forms.ToolStripButton();
             this.tstrUuDai = new System.Windows.Forms.ToolStripButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblPhimSapChieu = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblPhimDangChieu = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -64,19 +77,6 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.lblPhimSapChieu = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -169,6 +169,17 @@
             this.panel2.Size = new System.Drawing.Size(1330, 66);
             this.panel2.TabIndex = 3;
             // 
+            // lblPhimSapChieu
+            // 
+            this.lblPhimSapChieu.AutoSize = true;
+            this.lblPhimSapChieu.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhimSapChieu.ForeColor = System.Drawing.Color.White;
+            this.lblPhimSapChieu.Location = new System.Drawing.Point(733, 17);
+            this.lblPhimSapChieu.Name = "lblPhimSapChieu";
+            this.lblPhimSapChieu.Size = new System.Drawing.Size(247, 32);
+            this.lblPhimSapChieu.TabIndex = 29;
+            this.lblPhimSapChieu.Text = "PHIM SẮP CHIẾU";
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -246,6 +257,114 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PHIM ĐANG CHIẾU";
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 286);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(200, 60);
+            this.label1.TabIndex = 56;
+            this.label1.Text = "CÔ DÂU HÀO MÔN";
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(1118, 282);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(200, 60);
+            this.label8.TabIndex = 55;
+            this.label8.Text = "JOKER: FOLIE À DEUX ĐIÊN CÓ ĐÔI";
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(901, 282);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(200, 60);
+            this.label9.TabIndex = 54;
+            this.label9.Text = "KUMANTHONG: CHIÊU HỒN VONG NHI";
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(677, 282);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(200, 60);
+            this.label10.TabIndex = 53;
+            this.label10.Text = "DOMINO: LỐI THOÁT CUỐI CÙNG";
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(454, 282);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(200, 60);
+            this.label11.TabIndex = 52;
+            this.label11.Text = "MỘ ĐOM ĐÓM";
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(230, 282);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(200, 60);
+            this.label12.TabIndex = 51;
+            this.label12.Text = "ROBOT HOANG DÃ";
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(6, 672);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(200, 60);
+            this.label7.TabIndex = 50;
+            this.label7.Text = "CÁM";
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(1118, 672);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(200, 60);
+            this.label6.TabIndex = 49;
+            this.label6.Text = "NHẤT QUỶ NHÌ MA, THỨ BA TAKAGI: TRÊU RỒI YÊU";
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(901, 672);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(200, 60);
+            this.label5.TabIndex = 48;
+            this.label5.Text = "TEE YOD: QUỶ ĂN TẠNG PHẦN 2";
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(677, 672);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(200, 60);
+            this.label4.TabIndex = 47;
+            this.label4.Text = "HAI MUỐI";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(454, 672);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(200, 60);
+            this.label3.TabIndex = 46;
+            this.label3.Text = "FUBAO: BẢO BỐI CỦA ÔNG";
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(230, 672);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(200, 60);
+            this.label2.TabIndex = 45;
+            this.label2.Text = "ĐỐ ANH CÒNG ĐƯỢC TÔI";
             // 
             // button6
             // 
@@ -455,7 +574,7 @@
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(6, 349);
+            this.button1.Location = new System.Drawing.Point(6, 345);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 43);
             this.button1.TabIndex = 7;
@@ -522,125 +641,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
-            // 
-            // lblPhimSapChieu
-            // 
-            this.lblPhimSapChieu.AutoSize = true;
-            this.lblPhimSapChieu.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhimSapChieu.ForeColor = System.Drawing.Color.White;
-            this.lblPhimSapChieu.Location = new System.Drawing.Point(733, 17);
-            this.lblPhimSapChieu.Name = "lblPhimSapChieu";
-            this.lblPhimSapChieu.Size = new System.Drawing.Size(247, 32);
-            this.lblPhimSapChieu.TabIndex = 29;
-            this.lblPhimSapChieu.Text = "PHIM SẮP CHIẾU";
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(230, 672);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(200, 60);
-            this.label2.TabIndex = 45;
-            this.label2.Text = "ĐỐ ANH CÒNG ĐƯỢC TÔI";
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(454, 672);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(200, 60);
-            this.label3.TabIndex = 46;
-            this.label3.Text = "FUBAO: BẢO BỐI CỦA ÔNG";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(677, 672);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(200, 60);
-            this.label4.TabIndex = 47;
-            this.label4.Text = "HAI MUỐI";
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(901, 672);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(200, 60);
-            this.label5.TabIndex = 48;
-            this.label5.Text = "TEE YOD: QUỶ ĂN TẠNG PHẦN 2";
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(1118, 672);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 60);
-            this.label6.TabIndex = 49;
-            this.label6.Text = "NHẤT QUỶ NHÌ MA, THỨ BA TAKAGI: TRÊU RỒI YÊU";
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(6, 672);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(200, 60);
-            this.label7.TabIndex = 50;
-            this.label7.Text = "CÁM";
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 286);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 60);
-            this.label1.TabIndex = 56;
-            this.label1.Text = "CÔ DÂU HÀO MÔN";
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(1118, 282);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(200, 60);
-            this.label8.TabIndex = 55;
-            this.label8.Text = "JOKER: FOLIE À DEUX ĐIÊN CÓ ĐÔI";
-            // 
-            // label9
-            // 
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(901, 282);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(200, 60);
-            this.label9.TabIndex = 54;
-            this.label9.Text = "KUMANTHONG: CHIÊU HỒN VONG NHI";
-            // 
-            // label10
-            // 
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(677, 282);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(200, 60);
-            this.label10.TabIndex = 53;
-            this.label10.Text = "DOMINO: LỐI THOÁT CUỐI CÙNG";
-            // 
-            // label11
-            // 
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(454, 282);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(200, 60);
-            this.label11.TabIndex = 52;
-            this.label11.Text = "MỘ ĐOM ĐÓM";
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(230, 282);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(200, 60);
-            this.label12.TabIndex = 51;
-            this.label12.Text = "ROBOT HOANG DÃ";
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // ShowingMoviesFrm
             // 
@@ -656,6 +657,7 @@
             this.Name = "ShowingMoviesFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
+            this.Load += new System.EventHandler(this.ShowingMoviesFrm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);

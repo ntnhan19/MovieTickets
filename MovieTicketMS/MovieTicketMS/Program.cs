@@ -16,7 +16,7 @@ namespace MovieTicketMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ShowingMoviesFrm());
+            Application.Run(new LoginFrm());
         }
     }
 }

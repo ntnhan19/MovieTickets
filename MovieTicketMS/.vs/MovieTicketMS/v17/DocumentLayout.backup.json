@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\showingmoviesfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\showingmoviesfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\loginfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\loginfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\homepagefrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\homepagefrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\registfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\registfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\booktheatersfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\booktheatersfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\registfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\registfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\bookseatsfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\bookseatsfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\loginfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\loginfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\movieticket\\dbmovieticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\movieticket\\dbmovieticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|d:\\programming language\\winform\\movieticket\\movieticketms\\movieticketms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7BB1A4-56BF-4F48-9787-4C6793CADB8C}|MovieTicketMS\\MovieTicketMS.csproj|solutionrelative:movieticketms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,63 +38,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomePageFrm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\HomePageFrm.cs",
-              "RelativeDocumentMoniker": "MovieTicketMS\\HomePageFrm.cs",
-              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\HomePageFrm.cs [Design]",
-              "RelativeToolTip": "MovieTicketMS\\HomePageFrm.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\Program.cs",
+              "RelativeDocumentMoniker": "MovieTicketMS\\Program.cs",
+              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\Program.cs",
+              "RelativeToolTip": "MovieTicketMS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T16:55:22.501Z",
+              "WhenOpened": "2024-10-18T06:35:11.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistFrm.cs",
+              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\RegistFrm.cs",
+              "RelativeDocumentMoniker": "MovieTicketMS\\RegistFrm.cs",
+              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\RegistFrm.cs",
+              "RelativeToolTip": "MovieTicketMS\\RegistFrm.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T06:05:17.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistFrm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\RegistFrm.cs",
+              "RelativeDocumentMoniker": "MovieTicketMS\\RegistFrm.cs",
+              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\RegistFrm.cs [Design]",
+              "RelativeToolTip": "MovieTicketMS\\RegistFrm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T06:05:16.506Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShowingMoviesFrm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\ShowingMoviesFrm.cs",
-              "RelativeDocumentMoniker": "MovieTicketMS\\ShowingMoviesFrm.cs",
-              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\ShowingMoviesFrm.cs [Design]",
-              "RelativeToolTip": "MovieTicketMS\\ShowingMoviesFrm.cs [Design]",
+              "Title": "LoginFrm.cs",
+              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\LoginFrm.cs",
+              "RelativeDocumentMoniker": "MovieTicketMS\\LoginFrm.cs",
+              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\LoginFrm.cs",
+              "RelativeToolTip": "MovieTicketMS\\LoginFrm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwE4AAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T16:18:59.593Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DBMovieTicket.cs",
-              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\MovieTicket\\DBMovieTicket.cs",
-              "RelativeDocumentMoniker": "MovieTicketMS\\MovieTicket\\DBMovieTicket.cs",
-              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\MovieTicket\\DBMovieTicket.cs",
-              "RelativeToolTip": "MovieTicketMS\\MovieTicket\\DBMovieTicket.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T16:18:24.25Z",
+              "WhenOpened": "2024-10-18T06:04:58.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BookSeatsFrm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\BookSeatsFrm.cs",
-              "RelativeDocumentMoniker": "MovieTicketMS\\BookSeatsFrm.cs",
-              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\BookSeatsFrm.cs [Design]",
-              "RelativeToolTip": "MovieTicketMS\\BookSeatsFrm.cs [Design]",
+              "Title": "LoginFrm.cs [Design]",
+              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\LoginFrm.cs",
+              "RelativeDocumentMoniker": "MovieTicketMS\\LoginFrm.cs",
+              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\LoginFrm.cs [Design]",
+              "RelativeToolTip": "MovieTicketMS\\LoginFrm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:57:25.535Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookTheatersFrm.cs [Design]",
-              "DocumentMoniker": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\BookTheatersFrm.cs",
-              "RelativeDocumentMoniker": "MovieTicketMS\\BookTheatersFrm.cs",
-              "ToolTip": "D:\\Programming language\\Winform\\MovieTicket\\MovieTicketMS\\MovieTicketMS\\BookTheatersFrm.cs [Design]",
-              "RelativeToolTip": "MovieTicketMS\\BookTheatersFrm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:51:34.28Z",
+              "WhenOpened": "2024-10-18T06:04:56.497Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MovieTicketMS.MovieTicket;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace MovieTicketMS
 {
     public partial class BookSeatsFrm : Form
     {
+        DBMovieTicket movieTicketDB = new DBMovieTicket();
         public BookSeatsFrm()
         {
             InitializeComponent();
@@ -48,6 +50,9 @@ namespace MovieTicketMS
             }
         }
 
-        //Bấm git 
+        private void grbSeats_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

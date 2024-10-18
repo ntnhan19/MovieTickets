@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginFrm));
-            this.lbl_X = new System.Windows.Forms.Label();
+            this.Login_lblX = new System.Windows.Forms.Label();
             this.Login_lblLogAcc = new System.Windows.Forms.Label();
             this.Login_lblUserName = new System.Windows.Forms.Label();
             this.Login_txtUserName = new System.Windows.Forms.TextBox();
@@ -39,22 +39,22 @@
             this.Login_btnLogin = new System.Windows.Forms.Button();
             this.Login_lblCreateAcc = new System.Windows.Forms.Label();
             this.Login_btnSignup = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Login_panel = new System.Windows.Forms.Panel();
+            this.Login_picbox = new System.Windows.Forms.PictureBox();
+            this.Login_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Login_picbox)).BeginInit();
             this.SuspendLayout();
             // 
-            // lbl_X
+            // Login_lblX
             // 
-            this.lbl_X.AutoSize = true;
-            this.lbl_X.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_X.Location = new System.Drawing.Point(367, 11);
-            this.lbl_X.Name = "lbl_X";
-            this.lbl_X.Size = new System.Drawing.Size(19, 20);
-            this.lbl_X.TabIndex = 0;
-            this.lbl_X.Text = "X";
-            this.lbl_X.Click += new System.EventHandler(this.lbl_X_Click);
+            this.Login_lblX.AutoSize = true;
+            this.Login_lblX.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login_lblX.Location = new System.Drawing.Point(367, 11);
+            this.Login_lblX.Name = "Login_lblX";
+            this.Login_lblX.Size = new System.Drawing.Size(21, 19);
+            this.Login_lblX.TabIndex = 0;
+            this.Login_lblX.Text = "X";
+            this.Login_lblX.Click += new System.EventHandler(this.lbl_X_Click);
             // 
             // Login_lblLogAcc
             // 
@@ -162,56 +162,56 @@
             this.Login_btnSignup.UseVisualStyleBackColor = false;
             this.Login_btnSignup.Click += new System.EventHandler(this.Login_btnSignup_Click);
             // 
-            // panel1
+            // Login_panel
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(83)))), ((int)(((byte)(106)))));
-            this.panel1.Controls.Add(this.Login_lblLogAcc);
-            this.panel1.Controls.Add(this.lbl_X);
-            this.panel1.Controls.Add(this.Login_btnSignup);
-            this.panel1.Controls.Add(this.Login_lblUserName);
-            this.panel1.Controls.Add(this.Login_lblCreateAcc);
-            this.panel1.Controls.Add(this.Login_txtUserName);
-            this.panel1.Controls.Add(this.Login_btnLogin);
-            this.panel1.Controls.Add(this.Login_lblPass);
-            this.panel1.Controls.Add(this.Login_chkShowPass);
-            this.panel1.Controls.Add(this.Login_txtPass);
-            this.panel1.Location = new System.Drawing.Point(919, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(399, 674);
-            this.panel1.TabIndex = 9;
+            this.Login_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(83)))), ((int)(((byte)(106)))));
+            this.Login_panel.Controls.Add(this.Login_lblLogAcc);
+            this.Login_panel.Controls.Add(this.Login_lblX);
+            this.Login_panel.Controls.Add(this.Login_btnSignup);
+            this.Login_panel.Controls.Add(this.Login_lblUserName);
+            this.Login_panel.Controls.Add(this.Login_lblCreateAcc);
+            this.Login_panel.Controls.Add(this.Login_txtUserName);
+            this.Login_panel.Controls.Add(this.Login_btnLogin);
+            this.Login_panel.Controls.Add(this.Login_lblPass);
+            this.Login_panel.Controls.Add(this.Login_chkShowPass);
+            this.Login_panel.Controls.Add(this.Login_txtPass);
+            this.Login_panel.Location = new System.Drawing.Point(919, 12);
+            this.Login_panel.Name = "Login_panel";
+            this.Login_panel.Size = new System.Drawing.Size(399, 674);
+            this.Login_panel.TabIndex = 9;
             // 
-            // pictureBox1
+            // Login_picbox
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(888, 675);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
+            this.Login_picbox.Image = ((System.Drawing.Image)(resources.GetObject("Login_picbox.Image")));
+            this.Login_picbox.Location = new System.Drawing.Point(12, 12);
+            this.Login_picbox.Name = "Login_picbox";
+            this.Login_picbox.Size = new System.Drawing.Size(888, 675);
+            this.Login_picbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Login_picbox.TabIndex = 10;
+            this.Login_picbox.TabStop = false;
             // 
-            // LoginFr
+            // LoginFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(1330, 698);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Login_picbox);
+            this.Controls.Add(this.Login_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "LoginFr";
+            this.Name = "LoginFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Login_panel.ResumeLayout(false);
+            this.Login_panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Login_picbox)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lbl_X;
+        private System.Windows.Forms.Label Login_lblX;
         private System.Windows.Forms.Label Login_lblLogAcc;
         private System.Windows.Forms.Label Login_lblUserName;
         private System.Windows.Forms.TextBox Login_txtUserName;
@@ -221,7 +221,7 @@
         private System.Windows.Forms.Button Login_btnLogin;
         private System.Windows.Forms.Label Login_lblCreateAcc;
         private System.Windows.Forms.Button Login_btnSignup;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel Login_panel;
+        private System.Windows.Forms.PictureBox Login_picbox;
     }
 }

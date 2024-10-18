@@ -111,6 +111,9 @@
     <EmbeddedResource Include="HomePageFrm.resx">
       <DependentUpon>HomePageFrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginFrm.resx">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -120,6 +123,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RegistFrm.resx">
+      <DependentUpon>RegistFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ShowingMoviesFrm.resx">
       <DependentUpon>ShowingMoviesFrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +156,7 @@
     <Content Include="ImagesMovie\IMG-10.jpg" />
     <Content Include="ImagesMovie\IMG-11.jpg" />
     <Content Include="ImagesMovie\IMG-12.jpg" />
+    <Content Include="ImagesMovie\IMG-13.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

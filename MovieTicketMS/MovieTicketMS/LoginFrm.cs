@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MovieTicketMS.MovieTicket;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace MovieTicketMS
 {
     public partial class LoginFrm : Form
     {
+        DBMovieTicket movieTicketDB = new DBMovieTicket();
         public LoginFrm()
         {
             InitializeComponent();
@@ -40,13 +42,41 @@ namespace MovieTicketMS
 
         private void Login_btnLogin_Click(object sender, EventArgs e)
         {
-            if (Login_txtUserName.Text == "" || Login_txtPass.Text == "")
+            if (string.IsNullOrWhiteSpace(Login_txtUserName.Text) ||
+                string.IsNullOrWhiteSpace(Login_txtPass.Text))
             {
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+                
+            //Tìm user trong csdl
+            DBMovieTicket movieTicketDB = new DBMovieTicket();
+            var existingUser = movieTicketDB.Users
+                .Where(u => u.UserName.ToLower() == Login_txtUserName.Text.Trim().ToLower())
+                .FirstOrDefault();
+            
+            //Nếu tìm thấy user
+            if (existingUser != null)
+            {
+                //Kiểm tra mật khẩu có khớp không
+                if (existingUser.Password == Login_txtPass.Text.Trim())
+                {
+                    //Nếu khớp sẽ hiện thông báo
+                    MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    ShowingMoviesFrm showingMoviesFrm = new ShowingMoviesFrm();
+                    showingMoviesFrm.Show();
+
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Sai mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
-
+                MessageBox.Show("Tên đăng nhập không tồn tại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
