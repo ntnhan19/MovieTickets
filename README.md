@@ -42,7 +42,7 @@ The application simulates the basic flow of booking movie tickets in a cinema se
 
 - 💳 **Payment Integration** *(e.g., VNPay or similar)*
 - 🧾 Booking confirmation and email receipts
-- 🗃️ User login and booking history
+- 🗃️ Booking history
 - 📊 Admin panel for managing data (movies, showtimes, theater rooms, etc.)
 
 ---
